@@ -186,7 +186,9 @@ a {
 	margin: 10px 0;
 	text-align: center;
 	transition: all 0.5s;
-	padding-top: 8px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	z-index: 10;
 	}
 
 	.contenedor__fotos .card:hover {
