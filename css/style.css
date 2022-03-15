@@ -185,11 +185,14 @@ a {
 	overflow: hidden;
 	margin: 10px 0;
 	text-align: center;
-	
+	transition: all 0.5s;
 	padding-top: 8px;
 	}
 
-	
+	.contenedor__fotos .card:hover {
+	transform: translateY(-15px);
+	box-shadow: 0 12px 16px rgba(0, 0, 0, 0.8);
+	}
 
 	.contenedor__fotos .card img {
 	margin: 10px;
